@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jang Newspaper Recreation - January 5, 1990</title>
+</head>
+
+<!-- Body tag starts here - contains all visible content on the webpage -->
+<!-- Using inline style to set font, remove default margins, add padding, and set background color -->
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5;">
+    
+    <!-- Header tag - semantic element for top section of newspaper (masthead area) -->
+    <!-- This is where newspaper logo, title, and top banner images belong -->
+    <!-- Inline styles: bottom border for separation, spacing -->
+    <header style="border-bottom: 3px solid #000; padding-bottom: 10px; margin-bottom: 20px;">
+        
+        <!-- Table used for header layout - logo on left, title in center, image on right -->
+        <!-- This matches the original newspaper structure -->
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr>
+                <!-- TD tag - left cell for logo -->
+                <!-- Inline style: width 25%, align content to left and middle -->
+                <td style="width: 25%; text-align: left; vertical-align: middle;">
+                    
+                    <!-- Image tag for newspaper logo -->
+                    <!-- Alt attribute describes image for accessibility (screen readers) -->
+                    <!-- Inline style sets specific width for logo, maintains aspect ratio -->
+                    <!-- MAX-HEIGHT added to prevent logo from being too tall -->
+                    <img src="C:\Users\munhib\OneDrive\Desktop\Courses\Web technology\Assignment 1\images\logo.jpg" alt="Jang Newspaper Logo" style="width: 160px; height: auto; max-height: 120px;">
+                </td>
+
+                <!-- TD tag - right cell for top banner image -->
+                <!-- Inline style: width 25%, align content to right and middle -->
+                <td style="width: 25%; text-align: right;vertical-align: left">
+                    
+                    <!-- Image tag for banner image next to logo -->
+                    <!-- Alt attribute describes the image content -->
+                    <!-- Inline style sets specific width, maintains ratio, limits height -->
+                    <img src="C:\Users\munhib\OneDrive\Desktop\Courses\Web technology\Assignment 1\images\nexttologo.jpg" alt="Official gathering or meeting related to security matters" style="width: 160px; height: auto; max-height: 120px; border: 1px solid #999;">
+                </td>
+                
+                <!-- TD tag - center cell for newspaper title -->
+                <!-- Inline style: width 50%, center aligned -->
+                <td style="width: 50%; text-align: center; vertical-align: middle;">
+                    
+                    <!-- H1 tag - most important heading on page, used for main newspaper name -->
+                    <!-- Should only have one H1 per page for proper hierarchy -->
+                    <!-- Inline styles: large font, spacing, bold, black color -->
+                    <h1 style="font-size: 48px; margin: 10px 0; font-weight: bold; color: #000;">JANG</h1>
+                    
+                    <!-- Paragraph tag for subtitle text -->
+                    <!-- Using P tag because this is regular text content, not a heading -->
+                    <!-- Inline style sets font size, margin spacing, and dark gray color -->
+                    <p style="font-size: 14px; margin: 5px 0; color: #333;">Daily National Newspaper</p>
+                    
+                    <!-- Another P tag for date and location information -->
+                    <!-- Separate paragraph because it's different information from subtitle -->
+                    <!-- Lighter gray color to show less importance than subtitle -->
+                    <p style="font-size: 12px; margin: 5px 0; color: #666;">Friday, January 5, 1990 | Karachi Edition</p>
+                </td>
+                
+            </tr>
+        </table>
+    </header>
+
+    <!-- Section tag - semantic element for thematically grouped content -->
+    <!-- Used for main headline banner area -->
+    <!-- Inline styles: black background, white text, centered, padding, bottom spacing -->
+    <section style="background-color: #000; color: #fff; text-align: center; padding: 15px; margin-bottom: 20px;">
+        
+        <!-- H2 tag - second level heading for main headline -->
+        <!-- Less important than H1 (newspaper name) but more than article headlines -->
+        <!-- Inline styles: large font, no extra margin, bold weight -->
+        <h2 style="font-size: 36px; margin: 0; font-weight: bold;">50 People Dead due to the riots in Korangi,due to lack of Goverance Military has been called upon
+        </h2>
+    </section>
+
+    <!-- Table tag - required by assignment for column layout -->
+    <!-- Traditional newspapers use columns, table creates this structure -->
+    <!-- Inline styles: full width, collapse borders between cells, white background -->
+    <!-- Cellpadding attribute adds space inside each cell -->
+    <table style="width: 100%; border-collapse: collapse; background-color: #fff;" cellpadding="10">
+        
+        <!-- TR tag - table row, contains all three columns -->
+        <tr>
+            
+            <!-- TD tag - table data cell, this is the LEFT COLUMN -->
+            <!-- Inline styles: 33% width, align content to top, right border separator, padding -->
+            <td style="width: 33%; vertical-align: top; border-right: 2px solid #ccc; padding: 15px;">
+                
+                <!-- Section tag - groups related content (victims story) -->
+                <!-- Semantic element shows this is a distinct content area -->
+                <!-- Inline style adds bottom spacing -->
+                <section style="margin-bottom: 20px;">
+                    
+                    <!-- H3 tag - third level heading, for article headlines -->
+                    <!-- Less important than H2 (main headline) -->
+                    <!-- Inline styles: font size, bottom border underline, spacing -->
+                    <h3 style="font-size: 18px; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 10px;">Victims of Recent Incidents</h3>
+                    
+                    <!-- Image tag for victim photos grid -->
+                    <!-- Alt attribute describes image content for accessibility -->
+                    <!-- Inline styles: full width of column, auto height, MAX-HEIGHT limits size -->
+                    <!-- Border and spacing for visual separation -->
+                    <img src="C:\Users\munhib\OneDrive\Desktop\Courses\Web technology\Assignment 1\images\victimgrid.jpg" alt="Grid showing photographs of victims from recent incidents" style="width: 100%; height: auto; max-height: 250px; border: 1px solid #999; margin-bottom: 10px;">
+                    
+                    <!-- Article tag - semantic element for self-contained content -->
+                    <!-- Represents an independent article/story in the newspaper -->
+                    <article>
+                        
+                        <!-- P tag - paragraph of text content -->
+                        <!-- Inline styles: small font, line spacing for readability, justified text -->
+                        <p style="font-size: 13px; line-height: 1.6; text-align: justify;">
+                            A series of tragic incidents across the country has claimed multiple lives. The victims, 
+                            mostly civilians, were caught in various unfortunate circumstances. Local authorities have 
+                            launched investigations into each case. Families of the deceased are demanding swift justice 
+                            and proper compensation from the government.
+                        </p>
+                    </article>
+                </section>
+
+                <!-- Another Section tag for second story in left column -->
+                <!-- Separates different stories semantically -->
+                <section style="margin-bottom: 20px;">
+                    
+                    <!-- H3 tag - article headline, same level as previous story -->
+                    <h3 style="font-size: 18px; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 10px;">City Infrastructure Concerns</h3>
+                    
+                    <!-- Image tag for infrastructure photo -->
+                    <!-- Alt describes what's in the image -->
+                    <!-- MAX-HEIGHT added to keep bottom images consistent size -->
+                    <img src="C:\Users\munhib\OneDrive\Desktop\Courses\Web technology\Assignment 1\images\bottomleft.jpg" alt="Street scene showing urban infrastructure and buildings" style="width: 100%; height: auto; max-height: 180px; border: 1px solid #999; margin-bottom: 10px;">
+                    
+                    <!-- Article tag - another independent story -->
+                    <article>
+                        
+                        <!-- P tag - article text content -->
+                        <p style="font-size: 13px; line-height: 1.6; text-align: justify;">
+                            The deteriorating condition of city infrastructure has become a major concern for residents. 
+                            Roads are in poor condition and public facilities require immediate attention. Municipal 
+                            authorities have promised to allocate budget for urgent repairs. Citizens are hopeful that 
+                            improvements will be visible soon.
+                        </p>
+                    </article>
+                </section>
+
+            </td>
+
+            <!-- TD tag - table data cell, this is the MIDDLE COLUMN -->
+            <!-- Slightly wider than others (34%) for main content area -->
+            <td style="width: 34%; vertical-align: top; border-right: 2px solid #ccc; padding: 15px;">
+                
+                <!-- Article tag - main featured story in center -->
+                <article style="margin-bottom: 20px;">
+                    
+                    <!-- H3 tag - article headline -->
+                    <!-- Larger font than other H3s because it's the lead story -->
+                    <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #000;">National Security Alert Issued</h3>
+                    
+                    <!-- P tag - article content, slightly larger font for lead story -->
+                    <!-- This story does not have image since we moved nexttologo.jpg to header -->
+                    <p style="font-size: 14px; line-height: 1.6; text-align: justify;">
+                        Curfew has been implemented in Hyderabad Due to riots breakout.
+                    </p>
+                </article>
+
+                <!-- Article tag - second story in middle column -->
+                <article style="margin-bottom: 20px;">
+                    
+                    <!-- H4 tag - fourth level heading, less important than H3 -->
+                    <!-- Used for secondary stories -->
+                    <h4 style="font-size: 18px; border-bottom: 1px solid #666; padding-bottom: 5px; margin-bottom: 10px;">Economic Developments</h4>
+                    
+                    <!-- Image tag for economy-related photo -->
+                    <!-- MAX-HEIGHT keeps image size consistent -->
+                    <img src="C:\Users\munhib\OneDrive\Desktop\Courses\Web technology\Assignment 1\images\lowermid.jpg" alt="Urban landscape showing economic activity and development" style="width: 100%; height: auto; max-height: 180px; border: 1px solid #999; margin-bottom: 10px;">
+                    
+                    <!-- P tag - article text -->
+                    <p style="font-size: 13px; line-height: 1.6; text-align: justify;">
+                        The national economy shows signs of recovery with improved trade figures reported this quarter. 
+                        Exports have increased significantly in the textile and agricultural sectors. Economic analysts 
+                        predict steady growth if current policies continue. The finance minister has announced new 
+                        incentives for small businesses.
+                    </p>
+                </article>
+
+                <!-- Section tag - groups transport-related content -->
+                <section style="margin-bottom: 20px;">
+                    
+                    <!-- H4 tag - another secondary story headline -->
+                    <h4 style="font-size: 16px; font-weight: bold; margin-bottom: 8px;">Transport Sector Updates</h4>
+                    
+                    <!-- Image tag for transport photo -->
+                    <!-- MAX-HEIGHT keeps all bottom images same size -->
+                    <img src="C:\Users\munhib\OneDrive\Desktop\Courses\Web technology\Assignment 1\images\bottommid.jpg" alt="Transportation scene showing vehicles and street activity" style="width: 100%; height: auto; max-height: 180px; border: 1px solid #999; margin-bottom: 10px;">
+                    
+                    <!-- Article tag nested in section - the actual story content -->
+                    <article>
+                        
+                        <!-- P tag - article text -->
+                        <p style="font-size: 13px; line-height: 1.6; text-align: justify;">
+                            New regulations for public transport are being implemented to improve passenger safety 
+                            and service quality. Transport authorities have announced stricter enforcement of traffic 
+                            rules. Modern buses will be introduced in major cities to reduce congestion and pollution.
+                        </p>
+                    </article>
+                </section>
+
+            </td>
+
+            <!-- TD tag - table data cell, this is the RIGHT COLUMN -->
+            <!-- No right border because it's the last column -->
+            <td style="width: 33%; vertical-align: top; padding: 15px;">
+                
+                <!-- Section tag - special announcement/advertisement area -->
+                <!-- Inline styles: heavy border, padding, spacing, centered text, light background -->
+                <section style="border: 3px solid #000; padding: 15px; margin-bottom: 20px; text-align: center; background-color: #f9f9f9;">
+                    
+                    <!-- H3 tag - announcement headline -->
+                    <!-- Text-transform makes it all uppercase for emphasis -->
+                    <h3 style="font-size: 16px; margin-bottom: 10px; text-transform: uppercase;">Special Announcement</h3>
+                    
+                    <!-- P tag - announcement text content -->
+                    <p style="font-size: 12px; line-height: 1.4;">
+                        Public Notice: Citizens are requested to verify information from official sources only. 
+                        Rumors and unconfirmed reports can cause unnecessary panic. Stay informed through trusted 
+                        news channels.
+                    </p>
+                </section>
+
+                <!-- Article tag - regional news story -->
+                <article style="margin-bottom: 20px;">
+                    
+                    <!-- H3 tag - article headline -->
+                    <h3 style="font-size: 18px; font-weight: bold; margin-bottom: 10px; color: #000;">Regional Developments</h3>
+                    
+                    <!-- Image tag for regional photo -->
+                    <!-- MAX-HEIGHT keeps bottom images consistent -->
+                    <img src="C:\Users\munhib\OneDrive\Desktop\Courses\Web technology\Assignment 1\images\bottomright.jpg" alt="Regional scene showing local developments and activities" style="width: 100%; height: auto; max-height: 180px; border: 1px solid #999; margin-bottom: 10px;">
+                    
+                    <!-- P tag - article text -->
+                    <p style="font-size: 13px; line-height: 1.6; text-align: justify;">
+                        Provincial governments are working on development projects aimed at improving living standards 
+                        in rural areas. New schools and healthcare facilities are being constructed. Agricultural 
+                        support programs have been launched to help farmers. Local representatives have welcomed 
+                        these initiatives.
+                    </p>
+                </article>
+
+                <!-- Section tag - news briefs area -->
+                <!-- Inline styles: border box, padding, spacing -->
+                <section style="border: 1px solid #999; padding: 10px; margin-bottom: 20px;">
+                    
+                    <!-- H4 tag - section heading for briefs -->
+                    <h4 style="font-size: 16px; margin-bottom: 10px; border-bottom: 1px solid #666; padding-bottom: 5px;">News Briefs</h4>
+                    
+                    <!-- UL tag - unordered list for brief news items -->
+                    <!-- This fulfills assignment requirement for a list -->
+                    <!-- Inline styles: font size, line height spacing, left padding for bullets -->
+                    <ul style="font-size: 12px; line-height: 1.8; padding-left: 20px;">
+                        
+                        <!-- LI tags - each list item is a brief news story -->
+                        <!-- Using list format because these are short, related items -->
+                        <li>Government announces new scholarship program for students</li>
+                        <li>Weather forecast predicts rainfall in northern regions</li>
+                        <li>Sports: National cricket team prepares for upcoming series</li>
+                        <li>Health department launches vaccination campaign</li>
+                        <li>Cultural festival scheduled for next month in capital</li>
+                    </ul>
+                </section>
+
+                <!-- Article tag - editorial/opinion piece -->
+                <!-- Inline styles: gray background, padding, left border accent -->
+                <article style="background-color: #f0f0f0; padding: 10px; border-left: 4px solid #000;">
+                    
+                    <!-- H4 tag - editorial section heading -->
+                    <h4 style="font-size: 14px; font-weight: bold; margin-bottom: 8px;">Editorial Comment</h4>
+                    
+                    <!-- P tag - editorial text -->
+                    <!-- Italic style shows this is opinion/commentary, not news -->
+                    <p style="font-size: 12px; line-height: 1.6; font-style: italic;">
+                        The current situation demands unity and patience from all citizens. By working together 
+                        and supporting our institutions, we can overcome these challenges and build a stronger nation.
+                    </p>
+                </article>
+
+            </td>
+        </tr>
+    </table>
+
+    <!-- Section tag - bottom banner area for additional info -->
+    <!-- Inline styles: top spacing, black background, white text, padding, centered -->
+    <section style="margin-top: 20px; background-color: #000; color: #fff; padding: 10px; text-align: center;">
+        
+        <!-- H4 tag - banner heading -->
+        <h4 style="font-size: 14px; margin: 5px 0;">Additional Coverage on Pages 2-3</h4>
+        
+        <!-- P tag - supplementary information -->
+        <p style="font-size: 11px; margin: 5px 0;">Full details and analysis inside | Sports, Business, and Entertainment sections</p>
+    </section>
+
+    <!-- Footer tag - semantic element for bottom of page -->
+    <!-- Contains publication information, contact details, copyright -->
+    <!-- Inline styles: top spacing, top border, centered text, small font, gray color -->
+    <footer style="margin-top: 30px; padding-top: 15px; border-top: 2px solid #000; text-align: center; font-size: 11px; color: #666;">
+        
+        <!-- P tags - each paragraph contains different footer information -->
+        <!-- Separated for better organization and spacing -->
+        <p style="margin: 5px 0;">Published by Jang Publications | Chief Editor: Editorial Board</p>
+        <p style="margin: 5px 0;">Head Office: Karachi, Pakistan | Printed at Jang Printing Press</p>
+        <p style="margin: 5px 0;">For feedback and subscriptions, contact: [email protected]</p>
+        
+        <!-- P tag - copyright notice, smaller font -->
+        <p style="margin: 10px 0; font-size: 10px;">© 1990 Jang Publications. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
